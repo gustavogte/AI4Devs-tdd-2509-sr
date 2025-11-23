@@ -7,6 +7,11 @@ module.exports = {
   testEnvironment: 'node',
   roots: ['<rootDir>/src'],
   testMatch: ['**/__tests__/**/*.test.ts', '**/*.test.ts'],
+  testPathIgnorePatterns: [
+    '/node_modules/',
+    '/helpers/',
+    '/setup\\.ts$',
+  ],
   transform: {
     ...tsJestTransformCfg,
   },
