@@ -124,7 +124,7 @@ Todos los tests pasan correctamente:
 5 tests del servicio (database persistence)
 La suite de tests unitarios está funcionando correctamente y lista para usar.
 
-## Correción 3
+## Corrección 3
 
 Problema resuelto. El jest.config.js de la raíz ahora excluye correctamente los archivos de ayuda.
 Resultado final
